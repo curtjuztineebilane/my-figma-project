@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | CJ Portfolio</title>
+<meta name="description" content="Personal portfolio of Curt Juztine (CJ) Ebilane, Iba, Zambales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-page="home">
+<a class="visually-hidden-focusable" href="#main">Skip to content</a>
+<nav class="navbar navbar-expand-md border-bottom sticky-top bg-body" aria-label="Main navigation">
+<div class="container-fluid px-3 px-md-4">
+<a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="CJ, home"><img src="assets/images/logo.png?v=2" alt="" width="48" height="48" class="rounded-circle"><span class="brand-text">CJ</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto align-items-md-center gap-md-3"><li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Home</a></li><li class="nav-item"><a class="nav-link" href="pages/about.html">About Me</a></li><li class="nav-item"><a class="nav-link" href="pages/achievements.html">Achievements</a></li><li class="nav-item"><a class="nav-link" href="pages/contact.html">Contacts</a></li>
+<li class="nav-item"><button id="themeToggle" class="btn btn-outline-accent btn-sm" type="button" aria-pressed="true"><i class="bi bi-sun" aria-hidden="true"></i><span class="visually-hidden">Switch between light and dark theme</span></button></li>
+</ul></div></div></nav>
+<main id="main" class="container-fluid px-3 px-md-5 py-5">
+<div class="row align-items-center g-4">
+<div class="col-lg-5"><h1 class="display-5">Hi, I'm Curt Juztine Ebilane</h1>
+<p class="lead">I speak with confidence, work well in a team, and spend my free time gaming, studying, sightseeing, and making things by hand.</p>
+<a class="btn btn-soft" href="pages/about.html">About Me</a></div>
+<div class="col-lg-7"><div id="heroCarousel" class="carousel slide hero-carousel" data-bs-pause="false" aria-label="Photos of CJ">
+<div class="carousel-inner"><div class="carousel-item active"><button type="button" class="slide-open" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="CJ" aria-label="Enlarge photo: CJ"><img src="assets/images/hero-portrait.jpg" alt="CJ looking to the side, wearing headphones around his neck"></button></div><div class="carousel-item"><button type="button" class="slide-open" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="CJ" aria-label="Enlarge photo: CJ"><img src="assets/images/about-portrait.jpg" alt="CJ sitting on stone steps in a garden"></button></div><div class="carousel-item"><button type="button" class="slide-open" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="CJ on a hilltop" aria-label="Enlarge photo: CJ on a hilltop"><img src="assets/images/sightseeing-city-trip.jpg" alt="CJ standing on a hilltop with green mountains behind him"></button></div><div class="carousel-item"><button type="button" class="slide-open" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="CJ playing music" aria-label="Enlarge photo: CJ playing music"><img src="assets/images/playing-music.jpg" alt="CJ playing guitar with a band on stage"></button></div></div><div class="carousel-indicators"><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Photo 1"></button><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Photo 2"></button><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Photo 3"></button><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Photo 4"></button></div></div></div></div>
+<h2 class="h4 mt-5 mb-3">Highlights</h2>
+<div class="row g-4"><div class="col-md-4"><button type="button" class="photo-card photo-card--wide" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="Potipot Gateway Sunset" aria-label="Enlarge photo: Potipot Gateway Sunset"><img src="assets/images/potipot-gateway-sunset.jpg" alt="Sunset at Potipot Gateway"><span class="pill">Potipot Gateway Sunset</span></button></div><div class="col-md-4"><button type="button" class="photo-card photo-card--wide" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="Baguio City CrossRoad" aria-label="Enlarge photo: Baguio City CrossRoad"><img src="assets/images/baguio-city-crossroad.jpg" alt="Baguio City CrossRoad street signs"><span class="pill">Baguio City CrossRoad</span></button></div><div class="col-md-4"><button type="button" class="photo-card photo-card--wide" data-bs-toggle="modal" data-bs-target="#photoModal" data-caption="St. Michael's Church Sta Cruz" aria-label="Enlarge photo: St. Michael's Church Sta Cruz"><img src="assets/images/st-michaels-church-sta-cruz.jpg" alt="Friends outside St. Michael's Church in Sta Cruz"><span class="pill">St. Michael's Church Sta Cruz</span></button></div></div>
+<div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+<div class="modal-header"><h2 class="modal-title h5" id="photoModalLabel">Photo</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+<div class="modal-body"><img id="modalImg" class="img-fluid rounded" src="" alt=""></div></div></div></div>
+</main>
+<footer class="border-top py-3 text-center small"><img src="assets/images/logo.png?v=2" alt="" width="24" height="24" class="rounded-circle me-1"> CJ &middot; &copy; 2026 Curt Juztine Ebilane. Iba, Zambales.</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

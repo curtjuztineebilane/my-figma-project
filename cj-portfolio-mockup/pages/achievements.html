@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Achievements | CJ Portfolio</title>
+<meta name="description" content="Personal portfolio of Curt Juztine (CJ) Ebilane, Iba, Zambales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body data-page="achievements">
+<a class="visually-hidden-focusable" href="#main">Skip to content</a>
+<nav class="navbar navbar-expand-md border-bottom sticky-top bg-body" aria-label="Main navigation">
+<div class="container-fluid px-3 px-md-4">
+<a class="navbar-brand d-flex align-items-center gap-2" href="../index.html" aria-label="CJ, home"><img src="../assets/images/logo.png?v=2" alt="" width="48" height="48" class="rounded-circle"><span class="brand-text">CJ</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto align-items-md-center gap-md-3"><li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li><li class="nav-item"><a class="nav-link active" href="achievements.html" aria-current="page">Achievements</a></li><li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+<li class="nav-item"><button id="themeToggle" class="btn btn-outline-accent btn-sm" type="button" aria-pressed="true"><i class="bi bi-sun" aria-hidden="true"></i><span class="visually-hidden">Switch between light and dark theme</span></button></li>
+</ul></div></div></nav>
+<main id="main" class="container-fluid px-3 px-md-5 py-5">
+<h1 class="display-5">Achievements And Abilities</h1>
+<p class="mb-5">Awards I've earned and the strengths I bring to a team.</p>
+<div class="row g-5"><div class="col-lg-7">
+<h2 class="h4 mb-3">Achievements</h2>
+<div class="row g-2 mb-3">
+<div class="col-12 col-md-6"><label for="achSearch" class="visually-hidden">Search achievements</label><input id="achSearch" type="search" class="form-control" placeholder="Search achievements" autocomplete="off"></div>
+<div class="col-6 col-md-3"><label for="achCategory" class="visually-hidden">Category</label><select id="achCategory" class="form-select"><option value="all">All categories</option><option>Gaming</option><option>Work</option><option>Academic</option></select></div>
+<div class="col-6 col-md-3"><label for="achSort" class="visually-hidden">Sort by year</label><select id="achSort" class="form-select"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></div></div>
+<p id="achCount" class="small" aria-live="polite"></p>
+<div id="achList" class="d-grid gap-3"></div>
+<p id="achEmpty" class="alert alert-warning mt-3" role="status" hidden>No achievements match your search. Clear the search box or choose All categories.</p></div>
+<div class="col-lg-5"><div class="d-flex flex-wrap gap-2 mb-4"><span class="pill-soft">Public Speaking</span><span class="pill-soft">Gaming</span><span class="pill-soft">Research</span><span class="pill-soft">Playing Instruments</span></div><h2 class="h6">Strengths</h2><ul class="list-unstyled"><li class="mb-2"><i class="bi bi-check-lg check me-2" aria-hidden="true"></i>Confident communicator</li><li class="mb-2"><i class="bi bi-check-lg check me-2" aria-hidden="true"></i>Disciplined and patient</li><li class="mb-2"><i class="bi bi-check-lg check me-2" aria-hidden="true"></i>Quick thinker who works well in a team</li></ul></div></div>
+</main>
+<footer class="border-top py-3 text-center small"><img src="../assets/images/logo.png?v=2" alt="" width="24" height="24" class="rounded-circle me-1"> CJ &middot; &copy; 2026 Curt Juztine Ebilane. Iba, Zambales.</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
